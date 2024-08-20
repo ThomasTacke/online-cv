@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "online-cv"
+version = "0.1.0"
+description = "My online-cv."
+authors = ["Thomas Tacke <thomas@tacke.email>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^9.5.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
