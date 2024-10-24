@@ -27,6 +27,23 @@ theme:
         name: Switch to system preference
   features:
     - toc.follow
+    - navigation.footer
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ThomasTacke
+    - icon: fontawesome/solid/globe
+      link: https://thomas.tacke.email
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/thomas-tacke-3464b497
+    - icon: fontawesome/brands/xing
+      link: https://www.xing.com/profile/Thomas_Tacke7
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<thomas@tacke.email>
+    - icon: fontawesome/solid/file-pdf
+      link: https://thomas.tacke.email/assets/pdf/document.pdf
+      name: Download CV
 
 markdown_extensions:
   - toc

@@ -2,12 +2,54 @@
     background-color: var(--md-footer-bg-color);
 }
 
+.header-pdf-download-icon {
+    font-size: 16pt;
+}
+
+.header-pdf-download-text {
+    font-size: 12pt;
+}
+
 img[src$="#avatar"] {
     display: flex;
     margin-right: 1em;
     float: left;
-    border-radius: 50%;
-    max-width: 20%;
+    border-radius: 100%;
+    max-width: 16%;
+}
+
+.timeline-list {
+    margin-left: 0.5em;
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    width: 100%;
+}
+
+.timeline-bullet-point {
+    margin-top: 5px;
+}
+
+.timeline-bullet-point-second {
+    margin-top: 5px;
+    margin-left: 2em;
+}
+
+.timeline-bullet-point-second-text {
+    margin-left: 2em;
+}
+
+.timeline-bullet-point-third {
+    margin-top: 5px;
+    margin-left: 4em;
+}
+
+.timeline-bullet-point-third-text {
+    margin-left: 4em;
+}
+
+.timeline-bold {
+    font-weight: bold;
+    display: contents;
 }
 
 .about h2 {
@@ -48,11 +90,20 @@ img[src$="#avatar"] {
 }
 
 .miscellaneous {
+    border: #00541b;
+}
+
+.miscellaneous h2 {
+    margin: 0;
+    margin-top: -1em;
+}
+
+.miscellaneous.content {
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.miscellaneous h3 {
+.miscellaneous.content h3 {
     margin: 0;
 }
 
@@ -73,6 +124,10 @@ img[src$="#avatar"] {
     font-size: 24px;
     text-align: left;
     vertical-align: middle;
+}
+
+.skills-icon {
+    margin-bottom: -5px;
 }
 
 /*Font Awesome Fonts*/
@@ -129,51 +184,11 @@ img[src$="#avatar"] {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.bar.html5::before {
-    color: rgb(44, 44, 44);
-    background-color: #ffa200;
-    content: "";
-    width: calc(90% - 10px);
-}
 
+/* Python Programming */
 .bar.python::before {
     color: rgb(161, 161, 161);
     background-color: #008a10;
-    content: "";
-    width: calc(70% - 10px);
-}
-
-.bar.csharp::before {
-    color: rgb(161, 161, 161);
-    background-color: #380052;
-    content: "";
-    width: calc(75% - 10px);
-}
-
-.bar.typescript::before {
-    color: rgb(44, 44, 44);
-    background-color: #1480e6;
-    content: "";
-    width: calc(75% - 10px);
-}
-
-.bar.nodejs::before {
-    color: rgb(44, 44, 44);
-    background-color: #1480e6;
-    content: "";
-    width: calc(80% - 10px);
-}
-
-.bar.angular::before {
-    color: rgb(44, 44, 44);
-    background-color: #e61414;
-    content: "";
-    width: calc(80% - 10px);
-}
-
-.bar.dotnet::before {
-    color: rgb(44, 44, 44);
-    background-color: #4c14e6;
     content: "";
     width: calc(80% - 10px);
 }
@@ -182,16 +197,90 @@ img[src$="#avatar"] {
     color: rgb(44, 44, 44);
     background-color: #008a10;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(50% - 10px);
+}
+
+.bar.pydantic::before {
+    color: rgb(44, 44, 44);
+    background-color: #008a10;
+    content: "";
+    width: calc(70% - 10px);
 }
 
 .bar.typer::before {
     color: rgb(44, 44, 44);
     background-color: #008a10;
     content: "";
+    width: calc(60% - 10px);
+}
+
+/* TypeScript Programming */
+.bar.typescript::before {
+    color: rgb(44, 44, 44);
+    background-color: #1480e6;
+    content: "";
+    width: calc(70% - 10px);
+}
+
+.bar.nodejs::before {
+    color: rgb(44, 44, 44);
+    background-color: #00541b;
+    content: "";
+    width: calc(65% - 10px);
+}
+
+.bar.fastify::before {
+    color: rgb(44, 44, 44);
+    background-color: #bd0048;
+    content: "";
+    width: calc(60% - 10px);
+}
+
+.bar.angular::before {
+    color: rgb(44, 44, 44);
+    background-color: #e61414;
+    content: "";
+    width: calc(40% - 10px);
+}
+
+/* C# Programming */
+.bar.csharp::before {
+    color: rgb(161, 161, 161);
+    background-color: #380052;
+    content: "";
+    width: calc(70% - 10px);
+}
+
+.bar.asp-dotnet::before {
+    color: rgb(44, 44, 44);
+    background-color: #380052;
+    content: "";
     width: calc(80% - 10px);
 }
 
+.bar.ef-dotnet::before {
+    color: rgb(44, 44, 44);
+    background-color: #380052;
+    content: "";
+    width: calc(85% - 10px);
+}
+
+/* Markup Languages */
+.bar.html5::before {
+    color: rgb(44, 44, 44);
+    background-color: #ffa200;
+    content: "";
+    width: calc(80% - 10px);
+}
+
+.bar.markdown::before {
+    color: rgb(44, 44, 44);
+    background-color: #00c3ff;
+    content: "";
+    width: calc(90% - 10px);
+}
+
+/* DevOps */
 .bar.docker::before {
     color: rgb(44, 44, 44);
     background-color: #024481;
@@ -203,33 +292,34 @@ img[src$="#avatar"] {
     color: rgb(44, 44, 44);
     background-color: #a4a4a4;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(70% - 10px);
 }
 
 .bar.rancher::before {
     color: rgb(44, 44, 44);
     background-color: #024481;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(40% - 10px);
 }
 
+/* IT-Sec */
 .bar.network-analysis::before {
     color: rgb(44, 44, 44);
-    background-color: #00b1bd;
+    background-color: #bd0048;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(50% - 10px);
 }
 
 .bar.cryptography::before {
     color: rgb(44, 44, 44);
     background-color: #bd0048;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(40% - 10px);
 }
 
 .bar.protocol-security::before {
     color: rgb(44, 44, 44);
     background-color: #bd0048;
     content: "";
-    width: calc(80% - 10px);
+    width: calc(75% - 10px);
 }
