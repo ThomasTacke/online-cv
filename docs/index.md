@@ -3,13 +3,15 @@ hide:
   - navigation
 ---
 
-<style>
+<!-- <style>
 .md-typeset h1, .md-content__button {
   display: none;
 }
-</style>
+</style> -->
 
 <div class="about" markdown="1">
+
+# Msc. Ing. Thomas Tacke - Software Engineer
 
 ## :fontawesome-solid-address-card: About
 
@@ -36,9 +38,8 @@ I am eager to contribute to the development of both existing and new application
 
 </div>
 
-## :fontawesome-solid-cubes: Experience
-
 <div class="experience" markdown="1">
+  <h2><i class="fa-solid fa-cubes"></i> Experience</h2>
   <div class="work" markdown="1">
 
   <h3 markdown="1">:fontawesome-solid-laptop-code: Work</h3>
