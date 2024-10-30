@@ -21,10 +21,11 @@ hide:
 :fontawesome-solid-phone: +49 178 1863598  
 :fontawesome-solid-envelope: <thomas@tacke.email>  
 :fontawesome-solid-globe: [https://thomas.tacke.email](https://thomas.tacke.email){target=_blank}  
-:fontawesome-brands-xing: [Xing](https://www.xing.com/profile/Thomas_Tacke7){target=_blank}  
-:fontawesome-brands-linkedin: [LinkedIn](https://www.linkedin.com/in/thomas-tacke-3464b497){target=_blank}  
-:fontawesome-brands-github: [Github](https://github.com/ThomasTacke){target=_blank}  
-:fontawesome-brands-gitlab: [GitLab (Outdated, moved to GitHub)](https://gitlab.com/RootTheKid){target=_blank}  
+:fontawesome-brands-xing: [Xing/Thomas_Tacke7](https://www.xing.com/profile/Thomas_Tacke7){target=_blank}  
+:fontawesome-brands-linkedin: [LinkedIn/thomas-tacke](https://www.linkedin.com/in/thomas-tacke){target=_blank}  
+:fontawesome-brands-github: [Github-Personal/ThomasTacke](https://github.com/ThomasTacke){target=_blank}  
+:fontawesome-brands-github: [Github-Company-JustStats/ttacke-ops](https://github.com/ttacke-ops){target=_blank}  
+:fontawesome-brands-gitlab: [GitLab/RootTheKid (Outdated, moved to GitHub)](https://gitlab.com/RootTheKid){target=_blank}  
 :fontawesome-solid-file-pdf: [Download this CV](https://thomas.tacke.email/assets/pdf/document.pdf){target=_blank}
 </div>
 

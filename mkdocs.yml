@@ -1,7 +1,7 @@
 site_name: Msc. Ing. Thomas Tacke - Software Engineer
 site_url: "https://thomas.tacke.email"
 site_description: "Official Website of Thomas Tacke"
-repo_url: https://github.com/ThomasTacke
+repo_url: https://github.com/ThomasTacke/online-cv
 edit_uri: edit/master/docs/
 copyright: "&copy; 2024, Thomas Tacke"
 theme:
