@@ -1,0 +1,18 @@
+INHERIT: ../base.yml
+docs_dir: ../../docs/de
+site_url: "https://thomas.tacke.email/de/"
+site_description: "Offizielle Website von Thomas Tacke"
+
+nav:
+  - Resume: index.md
+  - Impressum: impressum.md
+
+extra:
+  alternate:
+    - name: '<img src="assets/flag-us.svg" class="language-flag" /> English'
+      link: /en/
+      lang: en
+
+plugins:
+  - search:
+      lang: de

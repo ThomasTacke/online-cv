@@ -1,0 +1,18 @@
+INHERIT: ../base.yml
+docs_dir: ../../docs/en
+site_url: "https://thomas.tacke.email/en/"
+site_description: "Official Website of Thomas Tacke"
+
+nav:
+  - Resume: index.md
+  - Imprint: imprint.md
+
+extra:
+  alternate:
+    - name: '<img src="assets/flag-de.svg" class="language-flag" /> Deutsch'
+      link: /de/
+      lang: de
+
+plugins:
+  - search:
+      lang: en

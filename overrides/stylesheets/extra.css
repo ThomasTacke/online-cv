@@ -18,6 +18,11 @@ img[src$="#avatar"] {
     max-width: 16%;
 }
 
+.language-flag {
+    margin-bottom: -4px;
+    max-width: 20px;
+}
+
 .timeline-list {
     margin-left: 0.5em;
     display: grid;
@@ -70,9 +75,7 @@ img[src$="#avatar"] {
 }
 
 .experience {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    margin-top: -2em;
+    margin-top: -1em;
 }
 
 .experience h3 {
@@ -84,13 +87,22 @@ img[src$="#avatar"] {
     border-bottom: solid #a4a4a4;
 }
 
+.education-languages {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
 .education {
     margin-top: 1em;
     margin-right: 1em;
 }
 
+.education-title {
+    font-size: 14pt;
+}
+
 .languages {
-    margin-top: 1em;
+    margin-top: 6em;
     margin-left: 1em;
 }
 

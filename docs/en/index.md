@@ -3,12 +3,6 @@ hide:
   - navigation
 ---
 
-<!-- <style>
-.md-typeset h1, .md-content__button {
-  display: none;
-}
-</style> -->
-
 <div class="about" markdown="1">
 
 # Msc. Ing. Thomas Tacke - Software Engineer
@@ -26,7 +20,7 @@ hide:
 :fontawesome-brands-github: [Github-Personal/ThomasTacke](https://github.com/ThomasTacke){target=_blank}  
 :fontawesome-brands-github: [Github-Company-JustStats/ttacke-ops](https://github.com/ttacke-ops){target=_blank}  
 :fontawesome-brands-gitlab: [GitLab/RootTheKid (Outdated, moved to GitHub)](https://gitlab.com/RootTheKid){target=_blank}  
-:fontawesome-solid-file-pdf: [Download this CV](https://thomas.tacke.email/assets/pdf/document.pdf){target=_blank}
+:fontawesome-solid-file-pdf: [Download this CV](pdf/document.pdf){target=_blank}
 </div>
 
 ![me](assets/me.jpeg#avatar)
@@ -36,14 +30,11 @@ Passionate **Software Engineer / Software Architect** with a Master of Science (
 My enthusiasm for **new technologies** and **security development** drives me to continuously explore and implement innovative solutions. In addition to my professional experience, I actively manage personal projects utilizing **Docker** and version control, showcasing my skills in **system administration** and self-hosting applications.
 
 I am eager to contribute to the development of both existing and new applications as a **Fullstack Engineer/Architect**, bringing a comprehensive understanding of security practices to the software development lifecycle.
-
 </div>
 
 <div class="experience" markdown="1">
-  <h2><i class="fa-solid fa-cubes"></i> Experience</h2>
+  <h2><i class="fa-solid fa-laptop-code"></i> Work-Experience</h2>
   <div class="work" markdown="1">
-
-  <h3 markdown="1">:fontawesome-solid-laptop-code: Work</h3>
 
 ::timeline::
 
@@ -93,7 +84,7 @@ I am eager to contribute to the development of both existing and new application
 
 - title: System Administrator (Working Student) <a href="https://informatik.rub.de/syssec/" target="_blank">@Chair for System Security</a>
   icon: ':fontawesome-solid-graduation-cap:'
-  sub_title: 2012 - 2014
+  sub_title: 2012 - 2013
   content:
     <span class="timeline-list">
     <i class="timeline-bullet-point fa-solid fa-arrow-right-long"></i>Provided technical support and managed systems for the <span class="timeline-bold">Systems Security</span> department, ensuring the availability, security, and reliability of critical IT infrastructure.
@@ -130,25 +121,25 @@ I am eager to contribute to the development of both existing and new application
 ::/timeline::
 
   </div>
+</div>
+<div class="experience" markdown="1">
+  <div class="education-languages" markdown="1">
   <div class="education" markdown="1">
-  <h3 markdown="1">:fontawesome-solid-building-columns: Education</h3>
+  <h2 markdown="1"><i class="fa-solid fa-building-columns"></i> Education</h2>
 
 ::timeline::
 
--   title: Master of Science - IT Security <a href="https://informatik.rub.de/en/studies/its/" target="_blank">@Ruhr University Bochum</a>
+-   title: <span class="education-title">Master of Science - IT Security <a href="https://informatik.rub.de/en/studies/its/" target="_blank">@Ruhr University Bochum</a></span>
     icon: ':fontawesome-solid-graduation-cap:'
     sub_title: 2011 - 2016
-    content: 
 
-- title: Bachelor of Science - Applied Computer Science <a href="https://www.mannheim.dhbw.de/en/dual-study/bachelors-degree-courses/engineering/computer-science/applied-computer-science" target="_blank">@Cooperative State University Baden Wuerttemberg</a>
+- title: <span class="education-title">Bachelor of Science - Applied Computer Science <a href="https://www.mannheim.dhbw.de/en/dual-study/bachelors-degree-courses/engineering/computer-science/applied-computer-science" target="_blank">@Cooperative State University Baden Wuerttemberg</a></span>
   icon: ':fontawesome-solid-graduation-cap:'
   sub_title: 2008 - 2011
-  content: 
 
-- title: University-entrance diploma - Informatics <a href="https://www.ers-hameln.de/unser-angebot/bildungsgaenge/fachoberschulen/technik/FOT11_FOT12.html" target="_blank">@Eugen-Reintjes-Schule</a>
+- title: <span class="education-title">University-entrance diploma - Informatics <a href="https://www.ers-hameln.de/unser-angebot/bildungsgaenge/fachoberschulen/technik/FOT11_FOT12.html" target="_blank">@Eugen-Reintjes-Schule</a></span>
   icon: ':fontawesome-solid-graduation-cap:'
   sub_title: 2004 - 2007
-  content: 
 
 ::/timeline::
   </div>
@@ -161,16 +152,15 @@ I am eager to contribute to the development of both existing and new application
 | English  | Fluent in speech and writing |
 
   </div>
+  </div>
 </div>
 
 <div class="miscellaneous" markdown="1">
 
-## :fontawesome-brands-ethereum: Miscellaneous
-
 <div class="miscellaneous content" markdown="1">
 
 <div class="skills" markdown="1">
-<h3 markdown="1">:fontawesome-brands-free-code-camp: Programming Skills</h3>
+<h2 markdown="1">:fontawesome-brands-free-code-camp: Programming Skills</h2>
 
 <details class="example" open="open" markdown="1">
   <summary>C# Programming</summary>
@@ -208,7 +198,7 @@ I am eager to contribute to the development of both existing and new application
 
 </div>
 <div class="skills" markdown="1">
-<h3 markdown="1">:fontawesome-brands-free-code-camp: Skills</h3>
+<h2 markdown="1">:fontawesome-brands-free-code-camp: Skills</h2>
 
 <details class="example" open="open" markdown="1">
   <summary>Markup Languages</summary>
@@ -240,7 +230,7 @@ I am eager to contribute to the development of both existing and new application
 
 </div>
 <div class="publications" markdown="1">
-<h3 markdown="1">:fontawesome-solid-book: Publications</h3>
+<h2 markdown="1">:fontawesome-solid-book: Publications</h2>
 !!! abstract "Bachelor Thesis – Development and implementation of a secure WLAN concept"
 
     This thesis focuses on the development and deployment of a **secure WLAN** solution for multiple establishments. Various **encryption techniques**, **authentication**, and **authorization mechanisms** were analyzed to determine the most effective approach to ensuring network security. After designing the WLAN security concept, a **pilot project** was carried out at a selected establishment, where the solution was implemented and thoroughly tested through **performance evaluations**.

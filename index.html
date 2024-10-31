@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Redirect</title>
+    <meta http-equiv="refresh" content="0; url=/en/" />
+    <style>
+        .centralizedContainer {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            position: fixed;
+            align-items: center;
+            justify-content: center;
+            font-size: 200%;
+        }
+    </style>
+    <script type="text/javascript">
+        var userLang = navigator.language || navigator.userLanguage;
+        
+        var siteLang;
+        if (userLang == "de-DE" || userLang == "de") {
+            siteLang = "/de/";
+        } else {
+            siteLang = "/en/";
+        }
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("redirect").setAttribute("href", siteLang);
+        });
+    </script>
+</head>
+<body>
+    <div class="centralizedContainer">
+        <div>
+            <a id="redirect">Redirect</a> to landing page.
+        </div>
+    </div>
+</body>
+</html>

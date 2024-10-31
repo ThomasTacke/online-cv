@@ -1,15 +1,16 @@
+
 site_name: Msc. Ing. Thomas Tacke - Software Engineer
-site_url: "https://thomas.tacke.email"
-site_description: "Official Website of Thomas Tacke"
 repo_url: https://github.com/ThomasTacke/online-cv
 edit_uri: edit/master/docs/
 copyright: "&copy; 2024, Thomas Tacke"
 theme:
   name: material
+  custom_dir: ../../overrides/
   favicon: assets/favicon.png
+  highlightjs: true
   icon:
-    repo: material/github
     logo: octicons/cpu-16
+  language: de
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -28,6 +29,7 @@ theme:
   features:
     - toc.follow
     - navigation.footer
+    - navigation.tabs
 
 extra:
   social:
@@ -60,10 +62,9 @@ markdown_extensions:
   - md_in_html
 
 plugins:
-  - search
   - privacy
 
 extra_css:
-  - css/extra.css
-  - css/neoteroi-mkdocs.css
-  - font-awesome/css/all.min.css
+  - stylesheets/extra.css
+  - stylesheets/neoteroi-mkdocs.css
+  - assets/font-awesome/css/all.min.css
