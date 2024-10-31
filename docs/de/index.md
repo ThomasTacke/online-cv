@@ -10,7 +10,7 @@ hide:
 ## :fontawesome-solid-address-card: Kurzprofil
 
 <div class="contact" markdown="1">
-<b>:fontawesome-solid-bullseye: Contact:</b>  
+<b>:fontawesome-solid-bullseye: Kontakt:</b>  
 :fontawesome-solid-location-dot: Im Maisel 11, 65232 Taunusstein  
 :fontawesome-solid-phone: +49 178 1863598  
 :fontawesome-solid-envelope: <thomas@tacke.email>  
@@ -20,7 +20,7 @@ hide:
 :fontawesome-brands-github: [Github-Personal/ThomasTacke](https://github.com/ThomasTacke){target=_blank}  
 :fontawesome-brands-github: [Github-Company-JustStats/ttacke-ops](https://github.com/ttacke-ops){target=_blank}  
 :fontawesome-brands-gitlab: [GitLab/RootTheKid (Outdated, moved to GitHub)](https://gitlab.com/RootTheKid){target=_blank}  
-:fontawesome-solid-file-pdf: [Download this CV](pdf/document.pdf){target=_blank}
+:fontawesome-solid-file-pdf: [Diesen CV Herunterladen](pdf/document.pdf){target=_blank}
 </div>
 
 ![me](assets/me.jpeg#avatar)
@@ -163,7 +163,7 @@ Ich freue mich darauf, sowohl bestehende als auch neue Anwendungen als **Fullsta
 <div class="miscellaneous content" markdown="1">
 
 <div class="skills" markdown="1">
-<h2 markdown="1">:fontawesome-brands-free-code-camp: Programming Skills</h2>
+<h2 markdown="1">:fontawesome-brands-free-code-camp: Programmierkenntnisse</h2>
 
 <details class="example" open="open" markdown="1">
   <summary>C# Programming</summary>
@@ -201,7 +201,7 @@ Ich freue mich darauf, sowohl bestehende als auch neue Anwendungen als **Fullsta
 
 </div>
 <div class="skills" markdown="1">
-<h2 markdown="1">:fontawesome-brands-free-code-camp: Skills</h2>
+<h2 markdown="1">:fontawesome-brands-free-code-camp: Fähigkeiten</h2>
 
 <details class="example" open="open" markdown="1">
   <summary>Markup Languages</summary>
@@ -233,18 +233,18 @@ Ich freue mich darauf, sowohl bestehende als auch neue Anwendungen als **Fullsta
 
 </div>
 <div class="publications" markdown="1">
-<h2 markdown="1">:fontawesome-solid-book: Publications</h2>
-!!! abstract "Bachelor Thesis – Development and implementation of a secure WLAN concept"
+<h2 markdown="1">:fontawesome-solid-book: Veröffentlichungen</h2>
+!!! abstract "Bachelorarbeit – Entwicklung und Implementierung eines sicheren WLAN-Konzepts"
 
-    This thesis focuses on the development and deployment of a **secure WLAN** solution for multiple establishments. Various **encryption techniques**, **authentication**, and **authorization mechanisms** were analyzed to determine the most effective approach to ensuring network security. After designing the WLAN security concept, a **pilot project** was carried out at a selected establishment, where the solution was implemented and thoroughly tested through **performance evaluations**.
+    Diese Arbeit konzentriert sich auf die Entwicklung und Implementierung einer **sicheren WLAN**-Lösung für mehrere Einrichtungen. Verschiedene **Verschlüsselungstechniken** sowie **Authentifizierungs- und Autorisierungsmechanismen** wurden analysiert, um den effektivsten Ansatz zur Sicherung des Netzwerks zu bestimmen. Nach der Ausarbeitung des Sicherheitskonzepts für das WLAN wurde ein **Pilotprojekt** in einer ausgewählten Einrichtung durchgeführt, bei dem die Lösung implementiert und anhand umfassender **Leistungstests** evaluiert wurde.
 
-!!! abstract "Master Thesis – Analysis, Implementation and Optimization of an End-2-End Security Concept for the Internet of Things in an Industry 4.0 Scenario"
+!!! abstract "Masterarbeit – Analyse, Implementierung und Optimierung eines End-to-End-Sicherheitskonzepts für das Internet der Dinge in einem Industrie-4.0-Szenario"
 
-    This thesis addresses the challenge of securing communication in **Industry 4.0** environments, where computational devices communicate over potentially insecure channels, such as cellular radio. While existing solutions often rely on transport layer encryption, this approach does not offer **end-to-end security** across multiple untrusted hosts.
+    Diese Arbeit befasst sich mit der Herausforderung der sicheren Kommunikation in **Industrie-4.0**-Umgebungen, in denen Rechner über potenziell unsichere Kanäle wie Mobilfunknetze kommunizieren. Während bestehende Lösungen oft auf Verschlüsselung auf der Transportschicht setzen, bietet dieser Ansatz keine **End-to-End-Sicherheit** über mehrere unzuverlässige Hosts hinweg.
 
-    The thesis designs and evaluates **end-to-end encryption mechanisms** for constrained IoT devices, using protocols such as **CoAP**, **MQTT**, **MQTT-SN**, and **WebSocket**. The work was demonstrated on Intel's **Quark™ SE Microcontroller**, which provided the necessary hardware environment. Through this evaluation, the most suitable encryption method was identified and implemented across the selected protocols.
+    In der Arbeit werden **End-to-End-Verschlüsselungsmethoden** für IoT-Geräte mit beschränkten Ressourcen entwickelt und evaluiert. Dabei kommen Protokolle wie **CoAP**, **MQTT**, **MQTT-SN** und **WebSocket** zum Einsatz. Die Implementierung erfolgte auf dem **Quark™ SE Mikrocontroller** von Intel, der die erforderliche Hardwareumgebung bereitstellte. Im Rahmen dieser Evaluation wurde die geeignetste Verschlüsselungsmethode identifiziert und für die ausgewählten Protokolle implementiert.
 
-    The results confirmed that **end-to-end encryption** can be effectively implemented without significantly affecting protocol performance, though scalability issues arose with increasing numbers of participants due to communication and computation overhead.
+    Die Ergebnisse bestätigten, dass eine **End-to-End-Verschlüsselung** ohne signifikante Beeinträchtigung der Protokollleistung effektiv umgesetzt werden kann. Mit zunehmender Teilnehmerzahl traten jedoch Skalierungsprobleme auf, bedingt durch Kommunikations- und Rechenaufwand.
 </div>
 </div>
 </div>

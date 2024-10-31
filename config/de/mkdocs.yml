@@ -7,6 +7,9 @@ nav:
   - Resume: index.md
   - Impressum: impressum.md
 
+theme:
+  language: de
+
 extra:
   alternate:
     - name: '<img src="assets/flag-us.svg" class="language-flag" /> English'

@@ -7,6 +7,9 @@ nav:
   - Resume: index.md
   - Imprint: imprint.md
 
+theme:
+  language: en
+
 extra:
   alternate:
     - name: '<img src="assets/flag-de.svg" class="language-flag" /> Deutsch'

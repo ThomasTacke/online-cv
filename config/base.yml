@@ -10,7 +10,6 @@ theme:
   highlightjs: true
   icon:
     logo: octicons/cpu-16
-  language: de
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
