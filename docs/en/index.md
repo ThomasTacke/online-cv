@@ -3,14 +3,31 @@ hide:
   - navigation
 ---
 
-<div class="about" markdown="1">
+<div class="headline" markdown="1">
 
 # Msc. Ing. Thomas Tacke - Software Engineer
 
+</div>
+
+<div class="about-contact" markdown="1">
+
+<div class="about" markdown="1">
+
 ## :fontawesome-solid-address-card: About
 
+![me](assets/me.jpeg#avatar)
+
+Passionate **Software Engineer / Software Architect** with a Master of Science (M.Sc.) in IT Security from **Ruhr-Universität Bochum**. With a strong foundation in applied informatics, I have a demonstrated history of designing and developing scalable applications using **Node.js**, **C#**, **Angular**, **Python** and microservices architecture.
+
+My enthusiasm for **new technologies** and **security development** drives me to continuously explore and implement innovative solutions. In addition to my professional experience, I actively manage personal projects utilizing **Docker** and version control, showcasing my skills in **system administration** and self-hosting applications.
+
+I am eager to contribute to the development of both existing and new applications as a **Fullstack Engineer/Architect**, bringing a comprehensive understanding of security practices to the software development lifecycle.
+
+</div>
 <div class="contact" markdown="1">
-<b>:fontawesome-solid-bullseye: Contact:</b>  
+
+### :fontawesome-solid-bullseye: Contact
+
 :fontawesome-solid-location-dot: Im Maisel 11, 65232 Taunusstein  
 :fontawesome-solid-phone: +49 178 1863598  
 :fontawesome-solid-envelope: <thomas@tacke.email>  
@@ -23,13 +40,6 @@ hide:
 :fontawesome-solid-file-pdf: [Download this CV](pdf/document.pdf){target=_blank}
 </div>
 
-![me](assets/me.jpeg#avatar)
-
-Passionate **Software Engineer / Software Architect** with a Master of Science (M.Sc.) in IT Security from **Ruhr-Universität Bochum**. With a strong foundation in applied informatics, I have a demonstrated history of designing and developing scalable applications using **Node.js**, **C#**, **Angular**, **Python** and microservices architecture.
-
-My enthusiasm for **new technologies** and **security development** drives me to continuously explore and implement innovative solutions. In addition to my professional experience, I actively manage personal projects utilizing **Docker** and version control, showcasing my skills in **system administration** and self-hosting applications.
-
-I am eager to contribute to the development of both existing and new applications as a **Fullstack Engineer/Architect**, bringing a comprehensive understanding of security practices to the software development lifecycle.
 </div>
 
 <div class="experience" markdown="1">

@@ -1,10 +1,12 @@
 INHERIT: ../base.yml
 docs_dir: ../../docs/de
+site_dir: ../../site/de
 site_url: "https://thomas.tacke.email/de/"
 site_description: "Offizielle Website von Thomas Tacke"
 
 nav:
   - Resume: index.md
+  - Kurzer Resume: resume-short.md
   - Impressum: impressum.md
 
 theme:

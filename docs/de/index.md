@@ -3,14 +3,31 @@ hide:
   - navigation
 ---
 
-<div class="about" markdown="1">
+<div class="headline" markdown="1">
 
 # Msc. Ing. Thomas Tacke - Software Engineer
 
+</div>
+
+<div class="about-contact" markdown="1">
+
+<div class="about" markdown="1">
+
 ## :fontawesome-solid-address-card: Kurzprofil
 
+![me](assets/me.jpeg#avatar)
+
+Leidenschaftlicher **Software Engineer / Softwarearchitekt** mit einem Master of Science (M.Sc.) in IT-Sicherheit von der **Ruhr-Universität Bochum**. Mit einem starken Fundament in angewandter Informatik und nachweislicher Erfahrung in der Konzeption und Entwicklung skalierbarer Anwendungen unter Einsatz von **Node.js**, **C#**, **Angular**, **Python** und einer **Microservices-Architektur**.
+
+Meine Begeisterung für **neue Technologien** und **Sicherheitsthemen** treibt mich dazu, kontinuierlich innovative Lösungen zu erforschen und umzusetzen. Neben meiner beruflichen Erfahrung betreue ich aktiv private Projekte, bei denen ich **Docker** und Versionskontrollsysteme nutze, um meine Fähigkeiten in der **Systemadministration** und im Selbsthosting von Anwendungen weiterzuentwickeln.
+
+Ich freue mich darauf, sowohl bestehende als auch neue Anwendungen als **Fullstack Engineer/Architekt** weiterzuentwickeln und mein umfassendes Verständnis von Sicherheitspraktiken in den Softwareentwicklungsprozess einzubringen.
+
+</div>
 <div class="contact" markdown="1">
-<b>:fontawesome-solid-bullseye: Kontakt:</b>  
+
+### :fontawesome-solid-bullseye: Kontakt
+
 :fontawesome-solid-location-dot: Im Maisel 11, 65232 Taunusstein  
 :fontawesome-solid-phone: +49 178 1863598  
 :fontawesome-solid-envelope: <thomas@tacke.email>  
@@ -23,13 +40,6 @@ hide:
 :fontawesome-solid-file-pdf: [Diesen CV Herunterladen](pdf/document.pdf){target=_blank}
 </div>
 
-![me](assets/me.jpeg#avatar)
-
-Leidenschaftlicher **Software Engineer / Softwarearchitekt** mit einem Master of Science (M.Sc.) in IT-Sicherheit von der **Ruhr-Universität Bochum**. Mit einem starken Fundament in angewandter Informatik und nachweislicher Erfahrung in der Konzeption und Entwicklung skalierbarer Anwendungen unter Einsatz von **Node.js**, **C#**, **Angular**, **Python** und einer **Microservices-Architektur**.
-
-Meine Begeisterung für **neue Technologien** und **Sicherheitsthemen** treibt mich dazu, kontinuierlich innovative Lösungen zu erforschen und umzusetzen. Neben meiner beruflichen Erfahrung betreue ich aktiv private Projekte, bei denen ich **Docker** und Versionskontrollsysteme nutze, um meine Fähigkeiten in der **Systemadministration** und im Selbsthosting von Anwendungen weiterzuentwickeln.
-
-Ich freue mich darauf, sowohl bestehende als auch neue Anwendungen als **Fullstack Engineer/Architekt** weiterzuentwickeln und mein umfassendes Verständnis von Sicherheitspraktiken in den Softwareentwicklungsprozess einzubringen.
 </div>
 
 <div class="experience" markdown="1">

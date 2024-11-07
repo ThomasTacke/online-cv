@@ -66,4 +66,5 @@ plugins:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
+  - stylesheets/timeline.css
   - assets/font-awesome/css/all.min.css

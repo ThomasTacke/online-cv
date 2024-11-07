@@ -1,3 +1,10 @@
+@media print {
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
+
 .md-header {
     background-color: var(--md-footer-bg-color);
 }
@@ -15,7 +22,7 @@ img[src$="#avatar"] {
     margin-right: 1em;
     float: left;
     border-radius: 100%;
-    max-width: 16%;
+    max-width: 130px;
 }
 
 .language-flag {
@@ -57,8 +64,25 @@ img[src$="#avatar"] {
     display: contents;
 }
 
-.about h1 {
+.headline h1 {
     margin-top: -1em;
+}
+
+.about-contact {
+    border: #008a10;
+    display: grid;
+    grid-template-columns: 1fr 288px;
+}
+
+.about-contact-short {
+    border: #008a10;
+    display: grid;
+    grid-template-columns: 1fr 288px 230px;
+}
+
+.about {
+    border: #00c3ff;
+    padding-right: 0.5em;
 }
 
 .about h2 {
@@ -66,16 +90,20 @@ img[src$="#avatar"] {
 }
 
 .contact {
-    display: flex;
-    margin-left: 1em;
-    float: right;
-    max-width: 30%;
-    position: relative;
-    top: -1.5em;
+    border: #982aab;
+}
+
+.contact-short {
+    border: #982aab;
+    margin-top: 1.7em;
+}
+
+.contact h3 {
+    margin-top: -1em;
 }
 
 .experience {
-    margin-top: -1em;
+    margin-top: -2em;
 }
 
 .experience h3 {
@@ -102,7 +130,7 @@ img[src$="#avatar"] {
 }
 
 .languages {
-    margin-top: 6em;
+    margin-top: 3.7em;
     margin-left: 1em;
 }
 
