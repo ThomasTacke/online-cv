@@ -1,6 +1,8 @@
 ---
 hide:
   - navigation
+search:
+  exclude: true
 ---
 
 <div class="headline" markdown="1">

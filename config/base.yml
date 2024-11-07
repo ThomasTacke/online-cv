@@ -29,6 +29,9 @@ theme:
     - toc.follow
     - navigation.footer
     - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - search.share
 
 extra:
   social:
