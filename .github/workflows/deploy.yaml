@@ -48,4 +48,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: rootthekid/onlinecv:${{ github.ref_name }}
+          tags: rootthekid/onlinecv:latest,rootthekid/onlinecv:${{ github.ref_name }}
