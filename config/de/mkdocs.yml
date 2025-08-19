@@ -5,8 +5,8 @@ site_url: "https://thomas.tacke.email/de/"
 site_description: "Offizielle Website von Thomas Tacke"
 
 nav:
-  - Resume: index.md
-  - Kurzer Resume: resume-short.md
+  - Lebenslauf: index.md
+  - Lebenslauf (Kurzfassung): resume-short.md
   - Impressum: impressum.md
 
 theme:
